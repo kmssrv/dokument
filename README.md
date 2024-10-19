@@ -18,11 +18,17 @@
 
 | Источник      | Имя сервера источника          | IP адрес источника | Назначение    | Имя сервера назначния          | IP адрес назначения | Порт назначения | Протокол |
 | ------------- | ------------------------------ | ------------------ | ------------- | ------------------------------ | ------------------- | --------------- | -------- |
+| KATA          | kuma-collector-01.kogorta.lab  | 192.168.76.51      | correlator-01 | kuma-correlator-01.kogorta.lab | 192.168.76.53       | 7221            | TCP      |
+| KATA          | kuma-collector-01.kogorta.lab  | 192.168.76.51      | storage       | kuma-storage-01.kogorta.lab    | 192.168.76.57       | 7221            | TCP      |
+| KATA          | kuma-collector-01.kogorta.lab  | 192.168.76.51      | storage       | kuma-storage-02.kogorta.lab    | 192.168.76.58       | 7221            | TCP      |
+| KATA          | kuma-collector-01.kogorta.lab  | 192.168.76.51      | storage       | kuma-storage-03.kogorta.lab    | 192.168.76.59       | 7221            | TCP      |
+| KATA          | kuma-collector-01.kogorta.lab  | 192.168.76.51      | storage       | kuma-storage-04.kogorta.lab    | 192.168.76.60       | 7221            | TCP      |
 | KSC           | kuma-collector-01.kogorta.lab  | 192.168.76.51      | correlator-01 | kuma-correlator-01.kogorta.lab | 192.168.76.53       | 7221            | TCP      |
 | KSC           | kuma-collector-01.kogorta.lab  | 192.168.76.51      | storage       | kuma-storage-01.kogorta.lab    | 192.168.76.57       | 7221            | TCP      |
 | KSC           | kuma-collector-01.kogorta.lab  | 192.168.76.51      | storage       | kuma-storage-02.kogorta.lab    | 192.168.76.58       | 7221            | TCP      |
 | KSC           | kuma-collector-01.kogorta.lab  | 192.168.76.51      | storage       | kuma-storage-03.kogorta.lab    | 192.168.76.59       | 7221            | TCP      |
 | KSC           | kuma-collector-01.kogorta.lab  | 192.168.76.51      | storage       | kuma-storage-04.kogorta.lab    | 192.168.76.60       | 7221            | TCP      |
+| core-1        | kuma-core.kogorta.lab          | 192.168.76.50      | KSC           | kuma-collector-01.kogorta.lab  | 192.168.76.51       | 7231            | TCP      |
 | core-1        | kuma-core.kogorta.lab          | 192.168.76.50      | KSC           | kuma-collector-01.kogorta.lab  | 192.168.76.51       | 7221            | TCP      |
 | core-1        | kuma-core.kogorta.lab          | 192.168.76.50      | correlator-01 | kuma-correlator-01.kogorta.lab | 192.168.76.53       | 7221            | TCP      |
 | core-1        | kuma-core.kogorta.lab          | 192.168.76.50      | storage       | kuma-storage-02.kogorta.lab    | 192.168.76.58       | 7221            | TCP      |
