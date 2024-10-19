@@ -78,3 +78,6 @@
 | storage       | kuma-storage-01.kogorta.lab    | 192.168.76.57      | storage       | kuma-storage-03.kogorta.lab    | 192.168.76.59       | 9009            | TCP      |
 | storage       | kuma-storage-01.kogorta.lab    | 192.168.76.57      | storage       | kuma-storage-04.kogorta.lab    | 192.168.76.60       | 9000            | TCP      |
 | storage       | kuma-storage-01.kogorta.lab    | 192.168.76.57      | storage       | kuma-storage-04.kogorta.lab    | 192.168.76.60       | 9009            | TCP      |
+
+# Архитектура Системы
+![](kuma-diagram-as-a-code.png)
